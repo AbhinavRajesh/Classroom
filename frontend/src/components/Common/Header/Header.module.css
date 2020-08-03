@@ -1,0 +1,30 @@
+header {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.logo {
+  padding: 10px 20px;
+  text-align: left;
+  flex: 2 1;
+}
+.logo h1 {
+  font-size: 24px;
+}
+nav {
+  flex: 1 2;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+}
+nav ul a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
